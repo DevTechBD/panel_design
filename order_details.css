@@ -1,24 +1,143 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
-
 :root {
-	--main-color: #027581;
-	--color-dark: #1D2231;
-	--text-grey: #8390A2;
+    --main-color: #027581;
+    --color-dark: #1D2231;
+    --text-grey: #8390A2;
 }
-
 
 * {
-	font-family: 'Poppings', sans-serif;
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-	list-style-type: none;
-	box-sizing: border-box;
+    font-family: 'Poppings', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
 }
 
-.main-container {
-    height: 100px;
-    width: 100px;
-    background-color: #111;
+body {
+    background-color: #e8e8e8;
+}
+
+.customer-view {
+    margin-left: 320px;
+    margin-top: 40px;
+    height: 300px;
+    width: 700px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px #f8f8f8;
+}
+
+.header-point {
+    background-color: #f5f5f5;
+    height: 10%;
+    border: none;
+}
+
+.header-point h4 {
+    color: #111;
+    font-size: 18px;
+    padding: 10px 5px 5px 9px;
+}
+
+.status-bar {
+    margin-left: 320px;
+    margin-top: 40px;
+    height: 480px;
+    width: 70%;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px #f8f8f8;
+}
+
+.status-header {
+    background-color: #f5f5f5;
+    height: 10%;
+    border: none;
+}
+
+.status-header h4 {
+    padding: 10px 5px 5px 9px;
+    font-size: 18px;
+}
+
+.desc {
+    padding: 2rm;
+}
+
+.desc p {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0.6rem;
+    margin-left: 20px;
+    border: 0.3px solid #d1d1d1;
+    border-radius: 6px;
+    width: 80%;
+    text-transform: uppercase;
+}
+
+.desc p span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 70px;
+}
+
+.stat {
+    background-color: #4f92ff;
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.pay_sys {
+    background-color: #ff9b30;
+    padding: 4px;
+    border: none;
+    border-radius: 10px;
+}
+
+.progress {
+    margin: 200px auto;
+}
+
+.progress img {
+    width: 40px;
+}
+
+.progress ul {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul li {
+    display: inline-block;
+    width: 200px;
+}
+
+ul li .fa {
+    background: #ccc;
+    width: 26px;
+    height: 26px;
+    color: #111;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+ul li .fa::after {
+    content: " ";
+    background: #c3232a;
+    height: 4px;
+    width: 205px;
+    display: block;
+    position: absolute;
+    left: 590px;
+    top: 670px;
+    z-index: -1;
+}
+
+ul li .stats-text {
+    color: #c3232a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
 }
